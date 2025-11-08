@@ -1,0 +1,23 @@
+{
+  "name": "web-music-player",
+  "version": "1.0.0",
+  "description": "A simple web-based music player built with HTML, CSS, and JavaScript, hosted on an Express.js server.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "music",
+    "player",
+    "html",
+    "css",
+    "javascript",
+    "express",
+    "audio"
+  ],
+  "author": "Ishita",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
