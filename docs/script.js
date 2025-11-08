@@ -10,7 +10,7 @@ const songTitle = document.getElementById("song-title");
 // Playlist
 const songs = [
   { title: "Deewana_Kar_Raha_Hai", src: "songs/Deewana_Kar_Raha_Hai.mp3" },
-  { title: "Yeh_Tu_Ne_Kya_Kiya", src: "songs/Yeh_Tu_Ne_Kya_Kiya.mp3" }
+  { title: "Yeh_Tu_Ne_Kya_Kiya", src: "songs/Yeh_Tu_Ne_Kya_Kiya.mp3" },
 ];
 
 let currentSong = 0;
@@ -19,7 +19,9 @@ let currentSong = 0;
 function loadSong(index) {
   const song = songs[index];
   audioPlayer.src = song.src;
-  songTitle.textContent = song.title;
+  songTitle.textContent = song.title
+    .replace(/_/g, " ")
+    .replace(/\b\w/g, (c) => c.toUpperCase());
   audioPlayer.load();
 }
 
