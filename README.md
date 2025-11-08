@@ -11,8 +11,8 @@ Music-Player/
 ├── package.json
 ├── server.js
 ├── songs/
-│ ├── Deewana Kar Raha Hai.mp3
-│ └── yeh tu ne kya kiya.mp3
+│ ├── Deewana_Kar_Raha_Hai.mp3
+│ └── Yeh_Tu_Ne_Kya_Kiya.mp3
 └── docs/
 ├── index.html
 ├── style.css
