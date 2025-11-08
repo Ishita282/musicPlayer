@@ -4,23 +4,6 @@ A responsive and interactive **Music Player** built using **HTML, CSS, JavaScrip
 It allows users to play, pause, switch between songs and control volume.
 
 
-## Project Structure
-
-Music-Player/
-│
-├── package.json
-├── server.js
-├── songs/
-│ ├── Deewana_Kar_Raha_Hai.mp3
-│ └── Yeh_Tu_Ne_Kya_Kiya.mp3
-└── docs/
-├── index.html
-├── style.css
-└── script.js
-
-(You can add multiple songs in the songs folder in .mp3 only)
-
-
 ## Features
 
 -  **Play / Pause** music easily  
@@ -42,9 +25,9 @@ node server.js
 Visit → [http://localhost:3000]
 
 ## Live Demo
-
+`https://ishita282.github.io/musicPlayer/`
 
 ## GitHub Repository:
-
+`https://github.com/Ishita282/musicPlayer.git`
 
 You’ll see the Music Player with songs ready to play!
