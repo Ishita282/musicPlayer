@@ -5,14 +5,14 @@ const app = express();
 const PORT = 3000;
 
 // Serve static files (HTML, CSS, JS)
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "docs")));
 
 // Serve songs from the /songs directory
 app.use("/songs", express.static(path.join(__dirname, "songs")));
 
 // Default route
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "index.html"));
+  res.sendFile(path.join(__dirname, "docs", "index.html"));
 });
 
 app.listen(PORT, () => {
