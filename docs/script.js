@@ -9,8 +9,8 @@ const songTitle = document.getElementById("song-title");
 
 // Playlist
 const songs = [
-  { title: "Deewana Kar Raha Hai", src: "songs/Deewana Kar Raha Hai.mp3" },
-  { title: "Yeh Tu Ne Kya Kiya", src: "songs/Yeh Tu Ne Kya Kiya.mp3" }
+  { title: "Deewana_Kar_Raha_Hai", src: "songs/Deewana_Kar_Raha_Hai.mp3" },
+  { title: "Yeh_Tu_Ne_Kya_Kiya", src: "songs/Yeh_Tu_Ne_Kya_Kiya.mp3" }
 ];
 
 let currentSong = 0;
