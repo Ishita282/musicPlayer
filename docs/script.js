@@ -19,9 +19,7 @@ let currentSong = 0;
 function loadSong(index) {
   const song = songs[index];
   audioPlayer.src = song.src;
-  songTitle.textContent = song.title
-  .replace(/_/g, " ")
-  .replace(/\b\w/g, c => c.toUpperCase());
+  songTitle.textContent = song.title;
   audioPlayer.load();
 }
 
